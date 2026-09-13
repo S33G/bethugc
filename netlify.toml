@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "24"
+  PNPM_FLAGS = "--frozen-lockfile"
+
+# Netlify automatically installs its current Next.js adapter.
+# Do not add a catch-all SPA redirect: the adapter handles page routing.

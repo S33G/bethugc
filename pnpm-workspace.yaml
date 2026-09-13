@@ -1,0 +1,2 @@
+# Use a flat dependency layout for portable Next.js/Netlify packaging.
+nodeLinker: hoisted

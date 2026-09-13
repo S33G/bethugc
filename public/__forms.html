@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <title>Enquiry form registration</title>
+  </head>
+  <body>
+    <!-- Netlify scans this static file to register the React form's fields. -->
+    <form name="brand-enquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="brand-enquiry" />
+      <input name="bot-field" />
+      <input name="name" />
+      <input name="brand" />
+      <input name="email" type="email" />
+      <input name="service" />
+      <input name="budget" />
+      <input name="timeline" />
+      <textarea name="message"></textarea>
+    </form>
+  </body>
+</html>
