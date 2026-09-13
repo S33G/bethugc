@@ -1,0 +1,13 @@
+node_modules/
+.pnpm-store/
+.next/
+out/
+*.tsbuildinfo
+.env*
+!.env.example
+scripts/vendor/
+scripts/portfolio-source.html
+scripts/contact-sheet.jpg
+scripts/*.info.json
+scripts/fonts.css
+*.log
